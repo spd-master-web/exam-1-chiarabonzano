@@ -45,9 +45,13 @@ h1 {
   text-transform: uppercase;
 }
 
-.header-title > img {
+.header-title > svg {
   max-width: 60px;
   height: auto;
+}
+
+.left-eye, .right-eye {
+  fill: gold;
 }
 
 .header-subtitle {
