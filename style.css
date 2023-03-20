@@ -235,3 +235,59 @@ footer > p {
 footer > p > a {
   color: white;
 }
+
+@media (max-width:600px) {
+  header {
+    padding: 5px 20px 10px 20px;
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-subtitle {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .header-nav {
+    padding: 5px 20px;
+  }
+
+  .header-nav-list {
+    flex-direction: column;
+  }
+
+  .header-nav-list-item {
+    padding-top: 2px;
+  }
+
+  .section-myth {
+    padding: 10px 20px 50px 20px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .section-myth > img {
+    max-width: 450px;
+
+    position: relative;
+  }
+
+  .content-myth {
+    width: 100%;
+  }
+
+  .section-lucky {
+    flex-direction: column;
+  }
+
+  .section-about {
+    padding: 50px 20px;
+  }
+
+  .tiger-nature {
+    margin: 10px 0 10px 50px;
+  }
+}
