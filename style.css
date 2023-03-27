@@ -282,6 +282,10 @@ footer > p > a {
     flex-direction: column;
   }
 
+  .section-about {
+    padding-top: 50px;
+  }
+
   .tiger-water {
     width: 100%;
     max-width: none;
