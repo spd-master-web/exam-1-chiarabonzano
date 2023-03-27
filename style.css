@@ -101,13 +101,16 @@ p {
   color: gold;
 }
 
+.section {
+  padding: 75px 50px;
+
+  position: relative;
+}
+
 /* MYTHOLOGY & SYMBOLISM */
 
 .section-myth {
   height: auto;
-  padding: 75px 50px;
-
-  position: relative;
 
   background-color: black;
 }
@@ -151,8 +154,6 @@ strong {
 /* LUCKY THINGS */
 
 .section-lucky {
-  padding: 75px 50px;
-
   display: flex;
   justify-content: space-between;
 
@@ -193,9 +194,6 @@ strong {
 /* ABOUT */
 
 .section-about {
-  padding: 75px 50px;
-
-  position: relative;
   overflow: hidden;
 }
 
@@ -251,28 +249,29 @@ footer > p > a {
 
   .header-nav {
     padding: 5px 20px;
-  }
 
-  .header-nav-list {
-    flex-direction: column;
+    top: 143px;
   }
 
   .header-nav-list-item {
-    padding-top: 2px;
+    padding: 10px 0;
+  }
+
+  .section {
+    padding: 10px 20px 50px 20px;
   }
 
   .section-myth {
-    padding: 10px 20px 50px 20px;
-
     display: flex;
     flex-direction: column;
     overflow: hidden;
   }
 
   .section-myth > img {
-    max-width: 450px;
+    width: 100%;
 
     position: relative;
+    right: -20px;
   }
 
   .content-myth {
@@ -283,11 +282,21 @@ footer > p > a {
     flex-direction: column;
   }
 
-  .section-about {
-    padding: 50px 20px;
+  .tiger-water {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+
+    float: none;
   }
 
   .tiger-nature {
-    margin: 10px 0 10px 50px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding-top: 15px;
+
+    float: none;
   }
+
 }
